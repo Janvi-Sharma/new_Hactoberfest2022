@@ -1,4 +1,3 @@
-p
 from flask import Flask, render_template, flash, request, redirect, url_for
 from forms import LoginForm, RegistrationForm
 from flask_sqlalchemy import SQLAlchemy
