@@ -1,4 +1,3 @@
-p
 from flask import Flask, render_template, flash, request, redirect, url_for
 from forms import LoginForm, RegistrationForm
 from flask_sqlalchemy import SQLAlchemy
@@ -114,9 +113,6 @@ def register():
  
  
     return render_template('registration.html', form=form)
- 
- 
- 
  
 #run flask app
 if __name__ == "__main__":
